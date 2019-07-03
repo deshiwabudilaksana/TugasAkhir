@@ -1,0 +1,201 @@
+.body-content {
+    margin-left: 280px;
+    /* margin-top: 100px; */
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+    display: block;
+}
+
+.my-margin-top-100 {
+    margin-top: 100px;
+}
+
+.body {
+    display: flex;
+}
+
+.hover-card {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+
+}
+
+.hover-card:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.hover-card-light {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+
+}
+
+.hover-card-light:hover {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+}
+
+.ic-wrapper {
+    background-color: #a5d6a7;
+
+    color: white;
+    width: 50px;
+    height: 50px;
+}
+
+.ic-wrapper {
+    border-radius: 50%;
+    display: flex;
+
+
+}
+
+.ic-wrapper i {
+    text-align: center;
+    margin: auto;
+}
+
+.custom-card-title {
+    margin-left: 1rem;
+    padding-top: 10px;
+    color: black;
+    font-family: sans-serif;
+}
+
+.cus-card {
+    margin-bottom: 0 !important;
+}
+
+
+.custom-card-title h5 {
+    font-size: 1.5rem;
+}
+
+
+.my-info {
+    margin-top: 30px;
+}
+
+
+.hidden {
+    display: none;
+}
+
+
+.my-custom-card-dashboard .card .card-body {
+    display: flex;
+
+}
+
+.user-detail {
+    width: 35%;
+}
+
+
+.user-detail-trans {
+    display: flex;
+
+}
+
+.detail-transaction {
+    display: flex;
+    margin-top: 20px;
+    padding-top: 20px;
+
+}
+
+.detail-transaction * {
+
+    padding-bottom: 7px;
+    font-size: 0.8rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+
+}
+
+.blue-sky-clr {
+    background: #bbdefb !important;
+}
+
+.letter-1 {
+    letter-spacing: 1px;
+}
+
+#font-price {
+
+    font-weight: 700;
+}
+
+.padding-custom {
+    padding-left: 10px;
+}
+
+.row-barang {
+    padding-top: 20px;
+}
+
+
+
+.gambar-kotak {
+    width: 240px;
+}
+
+.gambar-kotak-small{
+    width: 100px;
+}
+
+.gambar-kotak img {
+    max-width: auto;
+    max-height: 100%;
+}
+
+.edit-btn-brg{
+    float: right;
+}
+
+.no-image-small{
+    border: 2px dashed #e0e0e0;
+    height: 100px;
+    border-radius: 15px;
+}
+
+#img-add{
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 100px;
+    
+    color:#e0e0e0;
+    
+
+}
+
+.foto-barang{
+    padding-top:20px;
+    padding-bottom: 20px;
+    display: flex;
+
+}
+
+.input-produk input{
+    background: #eceff1;
+}
+
+.input-produk textarea{
+    background: #eceff1;
+}
+
+.input_barang_wrapper{
+    display: flex;
+}
+
+.wrapper-input-barang{
+    padding-top:20px;
+}
+
+.wrapper-list-barang{
+    padding-right:16px;
+    padding-left:16px;
+}

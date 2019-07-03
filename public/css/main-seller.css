@@ -1,0 +1,63 @@
+.register-page{
+    padding-top:20vh;
+}
+
+body{
+    background: #fafafa; /* fallback for old browsers */
+/* background: -webkit-linear-gradient(to right, #d66d75, #e29587); /* Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(to right, #d66d75, #e29587);  */ 
+}
+.register-page input{
+    background: #eceff1;
+}
+
+.register-info{
+    
+    background: #d66d75; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #d66d75, #e29587); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #d66d75, #e29587);
+    padding: 1.25rem;
+}
+
+.register-panel{
+    padding-left: 0;
+    padding-right:0;
+}
+
+.my-custom-card{
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    padding-left:0;
+    padding-right:0;
+}
+
+.my-custom-card:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+#desc-font *{
+    color: #fafafa;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:1.1rem;
+}
+#desc-font h3{
+    padding-bottom: 30px;
+}
+.register-panel input,.register-panel {
+    border-left: 2px solid #ff9671;
+    font-size: 90%;
+    /* font-size: 0.8rem; */
+}
+@media only screen and (max-width:600px){
+    .register-page{
+        padding-top:0vh;
+    }
+
+    #desc-font *{
+        font-size: 0.9rem;
+    }
+    #desc-font h3{
+    padding-bottom: 10px;
+}
+
+}
