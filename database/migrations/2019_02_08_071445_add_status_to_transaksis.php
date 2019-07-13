@@ -26,5 +26,12 @@ class AddStatusToTransaksis extends Migration
     public function down()
     {
         //
+        if(Schema::hasColumn('transaksis', 'status'))
+        {
+            Schema::table('transaksis', function (Blueprint $table)
+            {
+                $table->dropColumn('status');
+            });
+        }
     }
 }

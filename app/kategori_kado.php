@@ -11,4 +11,9 @@ class kategori_kado extends Model
         'id_kategori',
         'id_kado'
     ];
+
+    public function sub_kategori()
+    {
+        return $this->hasMany('App\SubKategori');
+    }
 }

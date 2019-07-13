@@ -60,6 +60,7 @@ Route::get('kadoku/edit/{id}', 'KadokuController@edit_data');
 Route::post('kadoku/update', 'KadokuController@update_data');
 Route::get('kadoku/delete/{id}', 'KadokuController@delete_data');
 Route::get('kadoku/rekomendasi/{id}', 'KadokuController@show_rekomendasi')->name('kadoku.rekomendasi');
+Route::get('kadoku/daftar_kado/{id}', 'KadokuController@daftar_kado');
 
 // seller
 Route::get('seller-mail', function () {

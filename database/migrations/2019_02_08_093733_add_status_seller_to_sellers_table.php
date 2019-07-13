@@ -30,5 +30,12 @@ class AddStatusSellerToSellersTable extends Migration
     public function down()
     {
         //
+        if(Schema::hasColumn('sellers', 'status_sellers'))
+        {
+            Schema::table('sellers', function (Blueprint $table)
+            {
+                $table->dropColumn('status_sellers');
+            });
+        }
     }
 }
